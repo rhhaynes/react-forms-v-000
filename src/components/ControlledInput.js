@@ -27,15 +27,3 @@ class ControlledInput extends React.Component {
 }
  
 export default ControlledInput;
- 
- 
-// src/index.js
-import React from 'react';
-import ReactDOM from 'react-dom';
- 
-import ControlledInput from './components/ControlledInput';
- 
-ReactDOM.render(
-  <ControlledInput />,
-  document.getElementById('root')
-);
